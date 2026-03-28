@@ -45,6 +45,11 @@ function App() {
   };
 
   const skills = [
+    { name: 'Python', icon: Database },
+    { name: 'Pandas', icon: Table2 },
+    { name: 'NumPy', icon: Table2 },
+    { name: 'Matplotlib', icon: LineChart },
+    { name: 'Seaborn', icon: LineChart },
     { name: 'SQL', icon: Database },
     { name: 'Excel', icon: Table2 },
     { name: 'Power BI', icon: BarChart3 },
@@ -56,6 +61,14 @@ function App() {
   ];
 
   const projects = [
+    {
+      title: 'Movie Revenue Drivers: A Correlation Study',
+      image: 'python.png',
+      description:
+        'Analyzed a movie dataset using correlation to identify key factors influencing revenue and audience engagement.',
+      tech: ['Python', 'Pandas', 'NumPy', 'Matplotlib', 'Seaborn'],
+      github: 'https://github.com/ChiragGup/movies_correlation/tree/main',
+    },
     {
       title: 'Global Layoffs Data Analysis',
       image: 'sql.png',
@@ -142,7 +155,7 @@ function App() {
           Chirag Gupta
         </h1>
         <p className="text-lg md:text-2xl text-slate-300 max-w-3xl mx-auto">
-          Data Analyst skilled in SQL, Excel, and Power BI, with hands-on experience
+          Data Analyst skilled in Python, SQL, Excel, and Power BI, with hands-on experience
           in data cleaning, exploratory analysis, and building clear, insight-driven
           dashboards.
         </p>
@@ -158,7 +171,7 @@ function App() {
             I enjoy transforming raw, unstructured data into meaningful insights that
             support better understanding and decision-making.
             <br /><br />
-            I am comfortable working with SQL, Excel, and Power BI, and I focus on
+            I am comfortable working with Python, SQL, Excel, and Power BI, and I focus on
             writing clean queries, organizing data logically, and presenting results
             in a clear and structured way.
           </p>
